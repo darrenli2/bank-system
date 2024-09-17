@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "jasmine-node": "^3.0.0"
+  },
+  "engines": {
+    "node": ">= 16.0.0",
+    "npm": ">= 7.20.0"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "npx jasmine ./src/tests.js"
+  },
+  "devDependencies": {
+    "jasmine": "^5.3.0"
+  }
+}
